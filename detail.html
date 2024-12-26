@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantaGPT – {{NAME}} unter Santas Lupe.</title>
+    <meta name="description" content="{{SHORTROAST}}">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="author" content="Marcel Claus-Ahrens">
+    <meta name="keywords" content="SantaGPT, LinkedIn, KI, Agent, Roast, Nice, Naughty, List, X-Mas, Weihnachten, KI-Agent, LinkedIn-Profil, LinkedIn-Posts, LinkedIn-Analyse, LinkedIn-Roast, LinkedIn-Entscheidung, LinkedIn-Agent, LinkedIn-KI, LinkedIn-Santa, LinkedIn-Roasted, LinkedIn-Nice, LinkedIn-Naughty, LinkedIn-List, LinkedIn-SantaGPT, LinkedIn-Santa-Agent, LinkedIn-Santa-Roast, LinkedIn-Santa-Nice, LinkedIn-Santa-Naughty, LinkedIn-Santa-List">
+    <meta name="theme-color" content="#165B33">
+    <meta name="twitter:card" property="twitter:card" content="{{SHORTROAST}}">
+    <meta name="twitter:site" property="twitter:site" content="@geckse">
+    <meta name="twitter:creator" property="twitter:creator" content="@geckse">
+    <meta name="twitter:title" property="twitter:title" content="SantaGPT – {{NAME}} unter Santas Lupe.">
+    <meta name="twitter:description" property="twitter:description" content="{{SHORTROAST}}">
+    <meta name="twitter:image" property="twitter:image" content="{{IMAGEURL}}">
+    <meta name="twitter:image:alt" property="twitter:image:alt" content="SantaGPT – {{NAME}} unter Santas Lupe. Bist du auf der Nice oder Naughty List?">
+    <meta name="og:title" property="og:title" content="SantaGPT – Dein LinkedIn unter Santas Lupe. Bist du auf der Nice oder Naughty List?">
+    <meta name="og:description" property="og:description" content="{{SHORTROAST}}">
+    <meta name="og:image" property="og:image" content="{{IMAGEURL}}">
+    <meta name="image" property="og:image" content="{{IMAGEURL}}">
+    <meta name="og:image:alt" property="og:image:alt" content="SantaGPT – {{NAME}} unter Santas Lupe. Bist du auf der Nice oder Naughty List?">
+    <meta name="og:url" property="og:url" content="https://santa-gpt.de">
+    <meta name="og:type" property="og:type" content="website">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="detail-page">
+
+
+    <header>
+        <div class="snow-ball-wrapp hmmm-yummy {{VERDICT}}">
+        
+            <div class="snow-ball">
+                <div class="inner-snow-ball">
+                    <div class="verdict-text">
+                        <h2>{{VERDICT}}</h2>
+                    </div>
+                </div>
+                <div class="wave-1">
+                </div>
+                <div class="wave-2">
+                </div>
+                <div class="wave-3">
+                </div>
+            </div>
+            <img class="santa-hat" src="/src/images/x-mas-hat.png" alt="SantaGPT">
+        </div>
+
+        <h1>🎅 <em class="cursive">Santa</em><span>GPT</span> 🎄</h1>
+        <h2>{{NAME}} ist {{VERDICT}}!</h2>
+        <a class="profile-link" target="_blank" href="{{PROFILEURL}}">
+            <i data-feather="linkedin"></i>
+            {{PROFILEURL}}
+        </a>
+
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div class="messages" id="messages">
+                <div class="message santa-message roast-message">
+                    <div class="message-inner">{{ROAST}}</div>
+                    <div class="message-footer">
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="chat-cta">
+                <a href="/" class="button">
+                    Lass dich auch roasten!
+                </a>
+            </div>
+        </div>
+    </main>
+
+
+
+    
+    <footer>
+
+        <div class="faq">
+            <h2>FAQ</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Was ist SantaGPT? 🎅
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>SantaGPT ist ein KI-Agent, der dein LinkedIn-Profil analysiert, roasted und entscheidet, ob du auf Santas Nice oder Naughty List landest. Deine LinkedIn-Posts sind hierfür ausschlaggebend!
+                            Also teste dein LinkedIn-Game und lass dich von Santa roasten und schauen, ob du auf der Nice oder Naughty List landest!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Wie funktioniert es? 🤯
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>SantaGPT wird deine LinkedIn-URL benötigen <i>(zB. https://linkedin.com/in/santa-clause)</i> Damit kann er dein LinkedIn-Profil analysieren.
+                            Er wird dich gehörig roasten und dann entscheiden, ob du auf der Nice oder Naughty List landest. 
+                            <br>
+                            Der Agent ist ein LangChain Agent entwickelt und ausgeführt mit <a href="https://n8n.io">n8n.io</a>.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Aber warum? 🤔
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Weil es diesen KI-Agent wirklich gebraucht hat!</p>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-header">
+                        Ist es kostenlos? 🎁
+                        <span class="accordion-icon">+</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Oh gott hör auf. Du willst nicht wissen wie viel es <i>mich</i> kostet. Aber dich kostet es nichts! 🤗</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="pre-footer">
+            <div class="made-by-wrap">
+                Made by 
+
+                <p class="made-by">
+                <a class="geckse-link" href="https://www.linkedin.com/in/geckse/" target="_blank">
+                    <img class="avatar" src="/src/images/geckse.jpg" alt="Marcel Claus-Ahrens">
+                    <strong>Marcel Claus-Ahrens</strong>
+                    <small>AI Engineer & Automation Expert</small></a>
+                </p>
+            </div>
+            <p class="powered-by">
+            <a href="https://n8n.io?utm_source=santagpt" target="_blank">
+                Powered by
+                <img class="n8n-logo" src="/src/images/n8n-logo.png" alt="n8n.io">
+            </a>
+            </p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Diese Seite verwendet nur technisch notwendige Cookies 🍪<br>Frohe Weihnachten! 🎄</p>
+            <a href="/impressum">Impressum</a>
+            <a href="/datenschutz">Datenschutz</a>
+        </div>
+
+
+    </footer>
+    <script type="text/javascript">
+        window.verdict = "{{VERDICT}}";
+        window.roastUrl = "{{ROAST_URL}}";
+        window.name = "{{NAME}}";
+        window.roastUrl = "{{URL}}";
+    </script>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
